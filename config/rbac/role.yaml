@@ -31,3 +31,29 @@ rules:
   - get
   - patch
   - update
+- apiGroups:
+  - webapp.matysiaq.tech
+  resources:
+  - secondkindtests
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - webapp.matysiaq.tech
+  resources:
+  - secondkindtests/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - webapp.matysiaq.tech
+  resources:
+  - secondkindtests/status
+  verbs:
+  - get
+  - patch
+  - update
