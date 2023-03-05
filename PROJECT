@@ -17,4 +17,13 @@ resources:
   kind: Guestbook
   path: matysiaq.tech/guestbook/api/v1
   version: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: matysiaq.tech
+  group: webapp
+  kind: SecondKindTest
+  path: matysiaq.tech/guestbook/api/v1
+  version: v1
 version: "3"
